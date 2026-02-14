@@ -1,1 +1,80 @@
 /* Add you CSS here */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #f4a742;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.profile-card img {
+  width: 120px;
+  height: auto;
+}
+
+.profile-img {
+  width: 120px;
+  height: auto;
+}
+
+.hero {
+  background-color: #9ad1c7;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about {
+  background-color: #7c8eb2;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.skills {
+  background-color: #dbe2b3;
+  padding: 40px;
+  text-align: center;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.projects {
+  background-color: #eef2f3;
+  padding: 40px;
+  text-align: center;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin: 10px auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #f4a742;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
